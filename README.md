@@ -4,12 +4,14 @@ This project implements a **Support Vector Machine (SVM)** model to classify SMS
 It uses **TF-IDF Vectorization** for text feature extraction and Flask for a simple web interface.
 
 ## Features
+
 - Machine learning classification using SVM
 - Text preprocessing with TF-IDF
 - Simple Flask-based web app for predictions
 - Small sample dataset included
 
 ## Project Structure
+
 Spam Detection/
 │-- app.py # Flask web app
 │-- train_model.py # Model training script
@@ -22,7 +24,9 @@ Spam Detection/
 │ └── style.css # CSS styles
 │-- requirements.txt # Dependencies
 │-- README.md # Project documentation
+
 ## Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/Spam_detection.git
@@ -31,15 +35,11 @@ Spam Detection/
 ```pip install -r requirements.txt
 ```
 ##Usage
+
 1. Train the model:
 ```python train_model.py```
 2. Start the flask application:
 ```python app.py```
 3. Open your browser and go to:
 ```http://127.0.0.1:5000```
-
-##Screenshots
-![Step 1]('/c/Users/Administrator/Downloads/WhatsApp Image 2025-08-13 at 12.22.05.jpeg')
-![Step 2]('/c/Users/Administrator/Downloads/WhatsApp Image 2025-08-13 at 12.22.05 (1).jpeg')
-![Step 3]('/c/Users/Administrator/Downloads/WhatsApp Image 2025-08-13 at 12.22.05 (2).jpeg')
 
